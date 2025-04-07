@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@import "react-datepicker/dist/react-datepicker.css";
+
+/* Customizations for datepicker input */
+.react-datepicker-wrapper input {
+  @apply w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+}
